@@ -1,4 +1,4 @@
-xdcore
+XdCore
 ======
-xdCore
-轻量级，简单的MVC框架
+XdCore
+轻量级，简单的Java Web框架
