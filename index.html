@@ -78,8 +78,8 @@ public class HomeAction extends BaseAction {
     return "/index.jsp";
   }
   
-  public Object home(HttpServletRequest request ,HttpServletResponse response, String[] args){
-    request.setAttribute("welcome", "Welcome to home");
+  public Object test(HttpServletRequest request ,HttpServletResponse response, String[] args){
+    request.setAttribute("welcome", "Test Welcome to home");
     return "/welcome.jsp";
   }
 }
@@ -95,7 +95,7 @@ public class HomeAction extends BaseAction {
 </pre>
 
 <h5>四：万事OK，只欠访问</h5>
-<p>启动你的服务器，如果没有报错，就访问一下 http://ip:port/project/ 或 http://ip:port/project/home 试试~</p>
+<p>启动你的服务器，如果没有报错，就访问一下 http://ip:port/project/home/ 或 http://ip:port/project/home/test 试试~</p>
 
 </section>
 </div>
