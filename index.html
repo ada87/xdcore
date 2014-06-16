@@ -8,17 +8,17 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <title>xdCore by ada87</title>
+    <title>XdCore</title>
   </head>
 
   <body>
 
     <header>
       <div class="container">
-        <h1>xdCore</h1>
-        <h2></h2>
+        <h1>XdCore</h1>
+        <h2>一个简单的Java Web框架.</h2>
 
-        <section id="downloads">
+        <section id="downloads" style="display:none;">
           <a href="https://github.com/ada87/xdcore/zipball/master" class="btn">Download as .zip</a>
           <a href="https://github.com/ada87/xdcore/tarball/master" class="btn">Download as .tar.gz</a>
           <a href="https://github.com/ada87/xdcore" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
@@ -26,42 +26,80 @@
       </div>
     </header>
 
-    <div class="container">
-      <section id="main_content">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<div class="container">
+  <section id="main_content">
+<h3>介绍.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>XdCore是本人自己无聊时开发的一个Java Web框架。由于本人水平太过业余，而且每天还要打游戏，睡觉，出去玩，时间不多，导致此框架BUG太多，修复也要看心情。<a class="user-mention" href="javascript:window.close()">无法接受的话，就关闭你的浏览器，不要往下看，免得浪费时间</a></p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h3>说明.</h3>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p>刚才说了，XdCore是一个简单的Java Web框架，为什么只是一个Web框架，不是MVC框架，个人认为MVC想法不错，但一味追求MVC的代码是是狗屎一堆。而且现在搞个几年的WEB开发的人眼中的MVC又各不一样，你说这是MVC，他说那是MVC，理论这种玩意不知道有什么意义。本框架写的时候是很自然的想法写的，写的时候完全没有考虑MVC，但至少本人也稍稍有点MVC的思想，写出来可能自然有半个MVC框架是不？</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<h3>比较.</h3>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<p>本人才疏学浅，Java牛B的Web框架只用于Struts1,Struts2(这货的前身xWork很久前也用于)，加一个个不熟悉的Spring MVC，其它的就真不知道了。</p>
+<p>常用的比较就那么几项，我就不说原因了，论功能点，安全性，以及一切其它特性，本框架被完败几条街。<a class="user-mention" href="javascript:window.close()">接受不了了吧，点这里面关掉页面</a></p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<h3>优点.</h3>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<p>我个人认为是优点的优点就这么一条：<strong>开源</strong></p>
+<p>开源，开玩笑！什么不开源？Struts不开源吗？那么请问有多少人看过，学习过，修改过Struts的源码？如果你做到了并碰过10%的Struts代码，那你就鄙视我吧。我见过最多的人就是把Struts的原理当诗来背，说起道理头头是道，做事来离开BaiduGoogle就成残废一个。</p>
+<p>XdCore核心代码加起来就几百行，两个方法四个类。全面看懂并理解也就一两个小时吧，当然，这也得要你愿意花一两个小时才行~_~!</p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<h3>特性.</h3>
+<p>刚才说的小，就是一种特性，个人喜欢简单粗暴高效的代码。适用于研究学习，小型项目。大项目慎用，如要使用，建议将源码导入自己再改装使用。</p>
+<p>另外，源码内有彩蛋：送一些常用Util类以及一些插件类，都是简单粗暴的代码，喜欢可用，不喜欢就不用。</p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<h3>使用.</h3>
+<p>使用上和Struts很象，但本人没有盗它任何一行代码，顶多只能算参考了下，因为实现完全不一样。</p>
+<h5>一：和Struts一样，使用需要在web.xml里面进行配置。做为控制器，与框架初始化的参数</h5>
+<pre>
+<code>
+  &lt;filter&gt;
+    &lt;filter-name&gt;xdcore&lt;/filter-name&gt;
+    &lt;filter-class&gt;com.dataexp.InitFilter&lt;/filter-class&gt;
+  &lt;/filter&gt;
+  &lt;filter-mapping&gt;
+    &lt;filter-name&gt;xdcore&lt;/filter-name&gt;
+    &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+  &lt;/filter-mapping&gt;</code>
+</pre>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+<h5>二：建立你的处理Action与Url映射，继承BaseAction</h5>
+<pre>
+<code>
+//-----------------HomeAction-----------------
+public class HomeAction extends BaseAction {
+  &#64;Override
+  public Object index(HttpServletRequest request ,HttpServletResponse response, String[] args){
+    request.setAttribute("welcome", "Hello World");
+    return "/index.jsp";
+  }
+  
+  public Object home(HttpServletRequest request ,HttpServletResponse response, String[] args){
+    request.setAttribute("welcome", "Welcome to home");
+    return "/welcome.jsp";
+  }
+}
+//-----------------welcole.jsp--------------------
+ &lt;% out.println(request.getAttrbute("welcome"))%&gt;</code>
+</pre>
+
+<h5>三：在编译后能访问到的ClassPath下，编辑配置文件xMap.properties</h5>
+<pre>
+<code>
+//-----------------xMap.properties-----------------
+/home=com.xxx.actions.HomeAction</code>
+</pre>
+
+<h5>四：万事OK，只欠访问</h5>
+<p>启动你的服务器，如果没有报错，就访问一下 http://ip:port/project/ 或 http://ip:port/project/home 试试~</p>
+
+</section>
+</div>
 
     
-  </body>
+</body>
 </html>
